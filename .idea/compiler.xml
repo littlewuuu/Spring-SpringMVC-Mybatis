@@ -12,6 +12,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring_hello" />
         <module name="AOP" />
+        <module name="Restful" />
         <module name="MyProxy" />
         <module name="spring-mvc-hello" />
         <module name="jdbc-template" />

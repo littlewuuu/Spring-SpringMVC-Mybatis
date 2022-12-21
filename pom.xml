@@ -11,6 +11,7 @@
     <module>AOP</module>
     <module>jdbc-template</module>
       <module>spring-mvc-hello</module>
+    <module>Restful</module>
   </modules>
   <name>Archetype - SSM-start</name>
   <url>http://maven.apache.org</url>
