@@ -1,0 +1,5 @@
+# Project exclude paths
+/AOP/target/
+/jdbc-template/target/
+/spring-mvc-hello/target/
+/spring_hello/target/
