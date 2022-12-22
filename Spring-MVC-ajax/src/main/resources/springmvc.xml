@@ -33,6 +33,11 @@
     <!--开启mvc的注解驱动-->
     <mvc:annotation-driven />
 
+    <!--必须通过文件解析器的解析才能将文件转换为MultipartFile对象-->
+    <!--spring 是通过 id 来获取而不是通过类型获取，所以要加上 id-->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    </bean>
     <!--配置视图控制器-->
     <mvc:view-controller path="/" view-name="index"></mvc:view-controller>
 </beans>

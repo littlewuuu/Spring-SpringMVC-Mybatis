@@ -8,10 +8,15 @@
 
 <div id="app">
     <h1>index</h1>
-    <input type="button" value="测试 springmvc 处理 ajax" @click="testAjax">
-    <input type="button" value="@requestBody 处理 json" @click="testRequestBody">
-    <input type="button" value="@responseBody 处理 json" @click="testResponseBody">
-    <a th:href="@{/test/down}">下载图片</a>
+    <input type="button" value="测试 springmvc 处理 ajax" @click="testAjax"><br>
+    <input type="button" value="@requestBody 处理 json" @click="testRequestBody"><br>
+    <input type="button" value="@responseBody 处理 json" @click="testResponseBody"><br>
+    <a th:href="@{/test/down}">下载图片</a><br>
+    <form th:action="@{test/up}" method="post" enctype="multipart/form-data">
+        <input type="file" name="photo"><br>
+        <input type="submit" val="upload">
+    </form>
+
 </div>
 
 
