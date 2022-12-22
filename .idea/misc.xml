@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Restful" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring-MVC-ajax" />
     <file type="web" url="file://$PROJECT_DIR$/spring-mvc-hello" />
   </component>
   <component name="MavenProjectsManager">
