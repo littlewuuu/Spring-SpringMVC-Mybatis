@@ -11,11 +11,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AOP" />
+        <module name="Spring-MVC-extension" />
         <module name="MyProxy" />
         <module name="jdbc-template" />
         <module name="spring_hello" />
         <module name="Restful" />
         <module name="Spring-MVC-ajax" />
+        <module name="ssm" />
         <module name="spring-mvc-hello" />
       </profile>
     </annotationProcessing>

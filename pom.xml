@@ -13,6 +13,8 @@
       <module>spring-mvc-hello</module>
     <module>Restful</module>
       <module>Spring-MVC-ajax</module>
+      <module>Spring-MVC-extension</module>
+      <module>ssm</module>
   </modules>
   <name>Archetype - SSM-start</name>
   <url>http://maven.apache.org</url>
